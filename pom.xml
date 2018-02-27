@@ -61,4 +61,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>c86c34775140-releases</name>
+            <url>http://internal-coach-devops.eastasia.cloudapp.azure.com:8083/artifactory/great-company</url>
+        </repository>
+    </distributionManagement>
 </project>
